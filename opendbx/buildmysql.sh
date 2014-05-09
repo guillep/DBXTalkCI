@@ -1,4 +1,3 @@
 #!/bin/bash
 
-CPPFLAGS="-I/usr/include/mysql"
-. ./build.sh
+CPPFLAGS="-I/usr/include/mysql" ./build.sh
