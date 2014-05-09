@@ -1,4 +1,4 @@
 #!/bin/sh
 
-CPPFLAGS="-I/usr/include/postgresql" 
+export CPPFLAGS="-I/usr/include/postgresql" 
 . ./build.sh
