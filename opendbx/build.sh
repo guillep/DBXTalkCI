@@ -11,6 +11,3 @@ echo $CPPFLAGS
 LDFLAGS="-L/usr/lib" ./configure --prefix="$WORKSPACE/results/" --disable-utils --with-backends="$backend"
 
 make && make install
-
-cd ..
-mv results/lib/opendbx/* results/lib
