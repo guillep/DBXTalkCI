@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./build.sh
+./scripts/opendbx/build.sh
