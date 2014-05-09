@@ -1,3 +1,4 @@
 #!/bin/bash
 
-CPPFLAGS="-I/usr/include/mysql" ./scripts/opendbx/build.sh
+export CPPFLAGS="-I/usr/include/mysql"
+./scripts/opendbx/build.sh
