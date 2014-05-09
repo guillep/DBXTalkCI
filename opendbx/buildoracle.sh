@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 CPPFLAGS="-I/usr/include/oracle"
 . ./build.sh
