@@ -7,7 +7,7 @@ mkdir results
 echo "Will install libraries in $WORKSPACE/results"
 cd OpenDBX
 
-CPPFLAGS="-I/usr/include/postgresql" LDFLAGS="-L/usr/lib" ./configure --prefix="$WORKSPACE/results/" --disable-utils --with-backends="$backend"
+LDFLAGS="-L/usr/lib" . ./configure --prefix="$WORKSPACE/results/" --disable-utils --with-backends="$backend"
 
 make && make install
 
