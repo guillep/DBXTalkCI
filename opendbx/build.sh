@@ -1,3 +1,5 @@
+git clone https://github.com/guillep/OpenDBX.git
+
 rm -rf results
 mkdir results
 echo "Will install libraries in $WORKSPACE/results"
