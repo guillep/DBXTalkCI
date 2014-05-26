@@ -2,7 +2,7 @@
 
 git clone https://github.com/guillep/OpenDBX.git
 
-set $WORKSPACE=`pwd`
+export WORKSPACE=`pwd`
 
 rm -rf results
 mkdir results
