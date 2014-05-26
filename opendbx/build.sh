@@ -8,6 +8,6 @@ echo "Will install libraries in $WORKSPACE/results"
 cd OpenDBX
 
 echo $CPPFLAGS
-LDFLAGS="-L/usr/lib" ./configure --prefix="$WORKSPACE/results/" --disable-utils --with-backends="$BACKEND"
+./configure --prefix="$WORKSPACE/results/" --disable-utils --with-backends="$BACKEND"
 
 make && make install
