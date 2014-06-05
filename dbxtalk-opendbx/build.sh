@@ -3,7 +3,7 @@
 # jenkins puts all the params after a / in the job name as well :(
 export JOB_NAME=`dirname $JOB_NAME`
 
-mv -f Platform=$Platform/results/lib/* .
+mv -f Platform=$Platform/* .
 
 wget --quiet -O - get.pharo.org/$PHARO_VERSION+vm | bash
 
