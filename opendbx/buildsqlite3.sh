@@ -1,4 +1,4 @@
 #!/bin/sh
 
 export BACKEND="sqlite3"
-./scripts/opendbx/build.sh
+CPPFLAGS="-I${SQLITE3_INCLUDE}" LDFLAGS="-L${SQLITE3_LIBRARY}" ./scripts/opendbx/build.sh
