@@ -11,6 +11,6 @@ cd OpenDBX
 
 echo "CPPFLAGS:" $CPPFLAGS
 echo "LDFLAGS:" $LDFLAGS
-./configure --prefix="$WORKSPACE/results/" --disable-utils --with-backends="$BACKEND"
+./configure --disable-nls --prefix="$WORKSPACE/results/" --disable-utils --with-backends="$BACKEND"
 
 make && make install
